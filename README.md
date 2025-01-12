@@ -1,5 +1,5 @@
 # Protocol-agnostic and Data-free Backdoor Attacks on Pre-trained Models in RF Fingerprinting
-Our paper was just accepted by IEEE INFOCOM 2025, here is the code example of our paper. 
+Our paper was just accepted by IEEE INFOCOM 2025, here is the code example of our paper. In our paper, we pre-define a set of triggers and output representations to inject backdoors into pre-trained models without any knowledge of downstream data.
 
 ## Public Dataset
 Please refer to the link to get the public dataset.
@@ -14,12 +14,13 @@ NetSTAR: https://research.engr.oregonstate.edu/hamdaoui/datasets
 
 
 ## Self-Supervised Learning Methods
-In this paper, we mainly evaluate two popular methods (generative and contrastive) from the below repository:
+In this paper, we mainly evaluate two popular methods (generative and contrastive) from the below repositories:
 
 LIMU-BERT: https://github.com/dapowan/LIMU-BERT-Public
 
 CL-HAR: https://github.com/Tian0426/CL-HAR 
 
+Some of the modeling codes in our paper are adopted from these two repositories.
 
 ## Citation
 <pre>
